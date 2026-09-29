@@ -1,0 +1,31 @@
+{
+  "name": "saasforge",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "smoke:generate": "tsx scripts/materialize-smoke.ts"
+  },
+  "dependencies": {
+    "jszip": "3.10.1",
+    "next": "16.3.7",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "zod": "4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.1",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "eslint": "9.39.1",
+    "eslint-config-next": "16.3.7",
+    "typescript": "5.9.3",
+    "tsx": "4.20.6",
+    "vitest": "5.0.2"
+  }
+}
